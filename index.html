@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FoodHub Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+  
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+
+  <div class="nav-container">
+
+    <!-- Logo left -->
+    <div class="logo">
+      Food<span>Hub</span>
+    </div>
+
+    <!-- Toggle -->
+    <button class="menu-toggle" id="menuToggle">☰</button>
+
+    <!-- Links / Drawer -->
+    <ul class="nav-links" id="navLinks">
+
+      <!-- Close button -->
+      <li class="close-btn">
+        <button id="closeMenu">✖</button>
+      </li>
+
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+
+      <!-- Cart icon -->
+      <li class="cart-icon">
+        <a href="#cart">
+          🛒
+          <span class="cart-count" id="cartCount">0</span>
+        </a>
+      </li>
+
+      <li class="order-btn">
+        <a href="#order">Order Now</a>
+      </li>
+
+    </ul>
+
+  </div>
+
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="home-section">
+  <div class="overlay">
+    <div class="content">
+      <h1>Welcome to FoodHub</h1>
+      <p>Delicious meals delivered fast & fresh</p>
+      <a href="#menu" class="btn">View Menu</a>
+    </div>
+  </div>
+</section>
+
+<!-- Menu Section  -->
+<!-- Menu Section Start -->
+<section id="menu">
+  <div class="container">
+    <div class="title">
+      <h2>Our Special Menu</h2>
+      <p>Order two and get third for free</p>
+    </div>
+    
+    <div class="menu-items">
+      <!-- Left Column -->
+      <div class="menu-items-left">
+        <div class="menu-item">
+          <img src="food1.png" alt="LASAL Cheese">
+          <div>
+            <h3>LASAL CHEESE <span class="primary-text">$18.00</span></h3>
+            <p>Delicious melted cheese with fresh herbs.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="food2.png" alt="JUMBO CRAB SHRIMP">
+          <div>
+            <h3>JUMBO CRAB SHRIMP <span class="primary-text">$24.00</span></h3>
+            <p>Fresh jumbo shrimp with crab meat sauce.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="food3.png" alt="KOKTAIL JUCIE">
+          <div>
+            <h3>KOKTAIL JUICE <span class="primary-text">$12.00</span></h3>
+            <p>Refreshing fruit juice cocktail.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="food4.png" alt="CAPO STEAK">
+          <div>
+            <h3>CAPO STEAK <span class="primary-text">$60.00</span></h3>
+            <p>Premium grilled steak cooked to perfection.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="food5.png" alt="ORGANIC FRUIT SALAD">
+          <div>
+            <h3>ORGANIC FRUIT SALAD <span class="primary-text">$8.00</span></h3>
+            <p>Fresh organic fruits with honey drizzle.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="food6.png" alt="CHEESE PIZZA">
+          <div>
+            <h3>CHEESE PIZZA <span class="primary-text">$18.00</span></h3>
+            <p>Classic cheese pizza with tomato base.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="menu-items-right">
+        <div class="menu-item">
+          <img src="food7.jpeg" alt="KOFTA MEAT">
+          <div>
+            <h3>KOFTA MEAT <span class="primary-text">$40.00</span></h3>
+            <p>Juicy kofta meatballs with special sauce.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="food8.jpeg" alt="SPANISH PIES">
+          <div>
+            <h3>SPANISH PIES <span class="primary-text">$14.00</span></h3>
+            <p>Delicious Spanish pies baked fresh.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="food9.jpeg" alt="CHEESE TOST">
+          <div>
+            <h3>CHEESE TOAST <span class="primary-text">$6.00</span></h3>
+            <p>Crispy toast with melted cheese.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="food10.jpeg" alt="FRUIT SALAD">
+          <div>
+            <h3>FRUIT SALAD <span class="primary-text">$14.00</span></h3>
+            <p>Fresh fruit salad with seasonal fruits.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="food11.jpeg" alt="CHICKEN SHAWARMA">
+          <div>
+            <h3>CHICKEN SHAWARMA <span class="primary-text">$20.00</span></h3>
+            <p>Classic chicken shawarma with garlic sauce.</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="food12.jpeg" alt="MEGA CHEESE PIZZA">
+          <div>
+            <h3>MEGA CHEESE PIZZA <span class="primary-text">$30.00</span></h3>
+            <p>Large pizza with extra cheese topping.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn btn-third"><a href="#">EXPLORE FULL MENU</a></button>
+  </div>
+</section>
+
+
+
+
+
+<!-- Dummy sections -->
+<section id="about" class="about-section-responsive">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About <span>FoodHub</span></h2>
+      <p>We deliver fresh and delicious meals made with the finest ingredients. Enjoy fast delivery and top-quality dishes in every order.</p>
+      <div class="about-features">
+        <div class="feature">
+          <span class="icon"><i class="fas fa-leaf"></i></span>
+          <h4>Fresh Ingredients</h4>
+        </div>
+        <div class="feature">
+          <span class="icon"><i class="fas fa-shipping-fast"></i></span>
+          <h4>Fast Delivery</h4>
+        </div>
+        <div class="feature">
+          <span class="icon"><i class="fas fa-star"></i></span>
+          <h4>Top Quality</h4>
+        </div>
+      </div>
+      <a href="#menu" class="btn">View Menu</a>
+    </div>
+    <div class="about-image">
+      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80" alt="About FoodHub">
+      <div class="overlay"></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Order Section -->
+<section id="order" class="order-section">
+  <div class="container order-wrapper">
+    <h2>Place <span>Your Order</span></h2>
+
+    <div class="order-content">
+      <!-- Order Summary -->
+      <div class="order-summary">
+        <h3>Order Summary</h3>
+        <div id="orderItemsContainer">
+          <p class="empty-order">No items in your order.</p>
+        </div>
+        <p class="order-total">Total: $<span id="orderTotal">0</span></p>
+      </div>
+
+      <!-- Order Form -->
+ <form id="orderForm" class="order-form">
+  <h3>Your Details</h3>
+  <div class="form-group">
+    <label for="orderName">Name</label>
+    <input type="text" id="orderName" placeholder="Your Name" required>
+  </div>
+  <div class="form-group">
+    <label for="orderPhone">Phone</label>
+    <input type="tel" id="orderPhone" placeholder="Your Phone" required>
+  </div>
+  <div class="form-group">
+    <label for="orderAddress">Address</label>
+    <textarea id="orderAddress" placeholder="Delivery Address" rows="3" required></textarea>
+  </div>
+  <button type="submit" class="btn">Place Order via WhatsApp</button>
+</form>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Logo & About -->
+    <div class="footer-logo">
+      <h3>Food<span>Hub</span></h3>
+      <p>Delicious meals delivered fast & fresh. Order online or visit us!</p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Social Media -->
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733579.png" alt="Facebook"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733558.png" alt="Instagram"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733614.png" alt="Twitter"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/1384/1384060.png" alt="WhatsApp"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 FoodHub. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+<!-- Mini Cart Drawer -->
+<div id="miniCart" class="mini-cart">
+  <div class="mini-cart-header">
+    <h3>Your Cart</h3>
+    <button id="closeCart">✖</button>
+  </div>
+  <div class="mini-cart-items" id="cartItems">
+    <p>Your cart is empty.</p>
+  </div>
+  <div id="cartTotal" style="padding:20px; border-top:1px solid #ddd; font-weight:700; display:none;">
+    Total: $0
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
